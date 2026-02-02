@@ -341,7 +341,7 @@
 
     .unlockable_bird_hint {
       grid-row: 3 / 4;
-      align-items: start;
+      align-items: center;
 
       span {
         font-size: 35px;
@@ -355,6 +355,11 @@
         padding: 0 40px;
         line-height: 1.1;
       }
+    }
+
+    .unlocked_bird_message {
+      align-items: center;
+      filter: drop-shadow(1px 1px 1px rgba(11, 11, 11, 0.5));
     }
   }
 
@@ -463,27 +468,26 @@
     .start_message,
     .unlocked_bird_message,
     .unlockable_bird_hint {
-      align-items: center;
+      align-items: start;
 
       span {
         font-weight: 500;
         padding: 0 20px;
         font-size: 30px;
-        bottom: 22px;
       }
     }
 
     .unlockable_bird_hint {
-      grid-row: 3 / 4;
-
-      span {
-        top: 20px;
-      }
+      grid-row: 2 / 3;
+      align-items: end;
     }
 
     .unlocked_bird_message {
+      grid-row: 2 / 3;
+      align-items: center;
+
       span {
-        bottom: 65px;
+        top: 25px;
       }
     }
   }
