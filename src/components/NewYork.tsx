@@ -588,6 +588,7 @@ const NewYork = () => {
     const bush_vel = (playing ? 1 : 0.5) * delta
 
     // ======================== CLOUDS & BUILDINGS LOOPING POSITIONS ======================== //
+
     const physical_width = Math.round(size.width * window.devicePixelRatio)
     const m_width = MOBILE_WIDTH * window.devicePixelRatio
 
