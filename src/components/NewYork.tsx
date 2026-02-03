@@ -30,7 +30,7 @@ import { useFrame, useLoader, useThree } from '@react-three/fiber'
 import { getRandomNumber } from '../helpers/helper_functions'
 
 const TOTAL_PLATFORMS = 7
-const DISTANCE_BETWEEN_PIPES = 16.02
+const DISTANCE_BETWEEN_PIPES = 16.005
 const PIPES_Y_OFFSET = 20
 const BBOX_COLLISION_COLOR = 'yellow'
 const BBOX_SENSOR_COLOR = 'crimson'
